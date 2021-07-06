@@ -3,12 +3,63 @@ body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
+/*naver css */
+
+.navbars{
+    margin-bottom:100px;
+}
+nav{
+    width: 100%;
+    height:75px;
+    background-color: #ff9999;
+    line-height: 75px;
+    padding: 0px 100px;
+    
+    z-index: 1;
+}
+
+.navbars nav .logo{
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+   
+}
+nav .logo p{
+    float: left;
+    color: #fff;
+    margin-bottom:15px;
+    
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+   
+    padding: 0px 25px;
+}
+nav ul li a:hover{
+    color: #ff4d4d;
+}
+/*naver css */
+
+
+
+
+
+
 .color-txt{
     color:#ff4d4d;
 }
 .head-body{
    
-    margin-top: 40px;
+   
     display: flex;
     margin-bottom: 50px;
 }
@@ -93,8 +144,9 @@ body{
 .recipie-body{
 margin-left: 40px;
 margin-right: 40px;
-display:grid;
-grid-template-columns: repeat(3, 1fr);
+display:flex;
+flex-direction:row;
+justify-content:center;
 gap: 50px;
 
 margin-bottom: 50px;
